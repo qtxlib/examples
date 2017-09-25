@@ -1,0 +1,3 @@
+qmake -project "QT += widgets" "LIBS += -lqtx" &&
+qmake && make
+rm -f *.o && rm -f moc_* && rm -f Makefile && rm -f *.pro

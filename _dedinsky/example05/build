@@ -1,0 +1,6 @@
+#!/bin/bash
+qmake -project "QT += widgets" &&
+qmake && make
+rm -f moc_*.cpp && rm -f Makefile && rm -f *.pro &&
+gcc *.o -shared -o libqtx.so &&
+rm -f *.o
