@@ -1,0 +1,3 @@
+[submodule "qtxlib"]
+	path = qtxlib
+	url = https://github.com/qtxlib/qtxlib.git
